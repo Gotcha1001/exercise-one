@@ -93,7 +93,7 @@ function Benefits({setSelectedPage}: Props) {
     <div className="flex flex-col items-center text-center md:text-left md:items-start order-2 md:order-last">
         {/* Title with abstract waves background */}
         <div className="relative w-full mt-10">
-            <div className="before:absolute before:-top-20 before-left-20 before:z-[1] before:content-abstractwaves">
+            <div >
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -137,7 +137,7 @@ function Benefits({setSelectedPage}: Props) {
 
         {/* BUTTON */}
         <div className="relative mt-16 ">
-            <div className="before:absolute before:-bottom-20 before:right-40 before:z[-1] before:content-sparkles">
+            <div >
                 <ActionButton setSelectedPage={setSelectedPage}>
                     Join Now
                 </ActionButton>
